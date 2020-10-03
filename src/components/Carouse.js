@@ -14,7 +14,7 @@ class Carouse extends React.Component {
       
         <div className="top-container">
           <a href="https://www.facebook.com/" className="link" rel="noopener noreferrer"><b>EVENTS /&nbsp;</b></a>
-          <a href="https://www.facebook.com/" className="link" rel="noopener noreferrer"><b>VODKA /&nbsp;</b></a>
+          <a href="https://www.facebook.com/" className="link" rel="noopener noreferrer"><b>VODQA /&nbsp;</b></a>
           <a href="https://www.facebook.com/" className="link" rel="noopener noreferrer"><b>JAVASCRIPTS</b></a> 
           <img className="header-image" src={logo} alt="logo" /> 
         </div>

@@ -101,7 +101,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Home <i className='fas fa-caret-down' />
+              Home <i class="fa fa-angle-down"/>
             </Link>
             {dropdown1 && <Dropdown1 />}
           </li>
@@ -115,10 +115,11 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Events <i className='fas fa-caret-down' />
+              Events <i class="fa fa-angle-down"/>
             </Link>
             {dropdown2 && <Dropdown2 />}
           </li>
+          
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter3}
@@ -129,7 +130,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Community <i className='fas fa-caret-down' />
+              Community <i class="fa fa-angle-down"/>
             </Link>
             {dropdown3 && <Dropdown3 />}
           </li>
@@ -143,10 +144,11 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              About <i className='fas fa-caret-down' />
+              About <i class="fa fa-angle-down"/>
             </Link>
             {dropdown4 && <Dropdown4 />}
-          </li>          
+          </li>   
+            
         </ul>
       </nav>
       </div>

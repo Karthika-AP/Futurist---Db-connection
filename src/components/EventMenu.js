@@ -1,7 +1,7 @@
 export const EventMenu = [
   {
-    title: 'Vodka',
-    path: '/vodka',
+    title: 'VodQA',
+    path: '/vodQA',
     cName: 'dropdown-link'
   },
   {
